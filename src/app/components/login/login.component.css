@@ -1,0 +1,31 @@
+.form {
+  padding: 20vh 0 0 0;
+  width: 100%; /* Ensures the container takes up the full width of its parent */
+  max-width: 400px; /* Optional: Limit the width of the container */
+  margin: 0 auto; /* Optional: Center the container */
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  margin: 10px;
+}
+.google-btn {
+  background-color: #db4437;
+}
+.facebook-btn {
+  background-color: #1877f2;
+}
+.btn img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}

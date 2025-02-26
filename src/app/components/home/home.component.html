@@ -1,0 +1,9 @@
+<div class="profile-container">
+  <img [src]="user.photoURL" alt="Profile Picture" class="profile-img" />
+  <h2>{{ user.displayName }}</h2>
+  <p>Email: {{ user.email }}</p>
+<!--  <p>Location: {{ user.location }}</p>-->
+  <button (click)="signOut()" class="btn btn-danger">
+    Sign Out
+  </button>
+</div>
