@@ -9,8 +9,6 @@ This Angular 16 application enables users to sign in using Google and Facebook a
 - Sign in with **Facebook**
 - Secure authentication using **Firebase Authentication**
 
-
-
 ## Installation
 
 Run `npm install` to install all the required dependencies
