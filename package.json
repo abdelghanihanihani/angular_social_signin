@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "prod:web": "node --openssl-legacy-provider ./node_modules/@angular/cli/bin/ng build --output-path docs --base-href /angular_social_signin/"
+
   },
   "private": true,
   "dependencies": {
